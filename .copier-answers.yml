@@ -1,0 +1,9 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v1.0.3
+_src_path: gh:mjun0812/python-copier-template
+author_email: jdhdbemd@gmail
+author_name: kuraryu
+description: this is kuraryu finance ai codes
+package_name: kuraryu_finance
+project_name: finance
+python_version: '3.12'
