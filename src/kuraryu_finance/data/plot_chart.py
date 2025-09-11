@@ -27,7 +27,7 @@ VERTICAL_SPACING = 0.1
 
 SUBPLOT_TITLES = [
     "OHLCV (Candlestick)", 
-    "Volume",
+    "Close Ratio",
     "Rolling 10 annual 252 Volatility",
     "Rolling 10 annual 365 Volatility"
 ]
@@ -65,7 +65,7 @@ def create_ohlcv_volatility_plot(df):
             high=df["high"],
             low=df["low"],
             close=df["close"],
-            name="Candlestick",
+            # name="Candlestick",
         ),
         row=1, col=1
     )
@@ -77,7 +77,7 @@ def create_ohlcv_volatility_plot(df):
             y=df["volume"],
             marker_color="blue",
             opacity=0.5,
-            name="Close Ratio"
+            # name="Close Ratio"
         ),
         row=2, col=1
     )
@@ -89,7 +89,7 @@ def create_ohlcv_volatility_plot(df):
             y=df["rolling_20_annual_252_volatility"]*100,
             mode="lines",
             line=dict(color="red"),
-            name="Rolling 20 annual 252 Volatility"
+            # name="Rolling 20 annual 252 Volatility"
         ),
         row=3, col=1
     )
@@ -101,7 +101,7 @@ def create_ohlcv_volatility_plot(df):
             y=df["rolling_20_annual_365_volatility"]*100,
             mode="lines",
             line=dict(color="red"),
-            name="Rolling 20 annual 365 Volatility"
+            # name="Rolling 20 annual 365 Volatility"
         ),
         row=4, col=1
     )
