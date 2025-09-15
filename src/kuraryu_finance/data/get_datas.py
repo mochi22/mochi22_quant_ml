@@ -134,7 +134,7 @@ def create_df(fetcher, init_since: int, timeframe="1d"):
         start_since=init_since
         df=pd.DataFrame()
         for i in range((num_days//ohlcv_limit)+1):
-            # print(i, start_since)
+            print(i, start_since)
             tmp_df = fetcher.get_ohlcv(
                 timeframe=timeframe, 
                 since=start_since, 
@@ -192,7 +192,7 @@ def create_df(fetcher, init_since: int, timeframe="1d"):
 
     ### OI ###
     # oiのbaseVolume,quoteVolumeはdeprecated
-    # binanceは直近一か月のみらしい。なのでそのまますべて取得する
+    # binanceは直近一か月のみ。
     oi = fetcher.get_open_interest_history(
                     timeframe=timeframe, 
                     limit=oi_limit
@@ -219,8 +219,8 @@ def create_df(fetcher, init_since: int, timeframe="1d"):
 
 window = 10 # binanceのclose to close volatilityのperiodが10
 annual = 365 # 株式とかだと252. binance見た感じ252かも
-timeframe="1d"
-limit=100
+timeframe="8h"
+limit=10000
 fr_limit=200
 oi_limit=50
 ohlcv_limit=1000

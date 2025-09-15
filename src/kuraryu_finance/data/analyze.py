@@ -14,6 +14,7 @@ from utils.plot_utils import adjust_row_domain, set_yaxis_domains
 import plotly.express as px
 
 
+
 # -----------------------------
 # 設定
 # -----------------------------
@@ -50,6 +51,8 @@ def load_data(path: str):
 # -----------------------------
 
 def display_histgram(df, col):
+    df=df.drop_nulls(col)
+    print(df[col].describe())
     fig = px.histogram(df, x=col)
     # fig.show()
     return fig
@@ -60,6 +63,6 @@ def display_histgram(df, col):
 # -----------------------------
 if __name__ == "__main__":
     df = load_data(CSV_PATH)
-    fig = display_histgram(df, "log_daily_close_ratio")
+    fig = display_histgram(df, "daily_close_ratio")
     fig.write_html(HTML_PATH, auto_open=True)
 
