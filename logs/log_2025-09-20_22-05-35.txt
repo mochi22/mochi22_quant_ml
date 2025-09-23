@@ -1,0 +1,2 @@
+[22:05:35] [DEBUG] Using proactor: IocpProactor
+[22:05:35] [INFO] {'e': 'trade', 'E': 1758373535685, 's': 'BTCUSDT', 't': 5245487630, 'p': '115868.91000000', 'q': '0.00009000', 'T': 1758373535685, 'm': False, 'M': True}

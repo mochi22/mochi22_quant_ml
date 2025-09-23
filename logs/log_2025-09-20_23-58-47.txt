@@ -1,0 +1,11 @@
+[23:58:47] [INFO] start!!!
+[23:58:47] [INFO] stream:trade, symbol:btcusdt, url:wss://stream.binance.com:9443/ws/btcusdt@trade
+[23:58:47] [INFO] send_json:{'method': 'SUBSCRIBE', 'params': {'returnRateLimits': True}, 'id': '10'}
+[23:58:49] [INFO] df.shape: (2, 8)
+[23:58:49] [INFO]   event_type  event_timestamp   symbol    trade_id            price    quantity  trade_timestamp  is_buyer_mm
+0      trade    1758380329139  BTCUSDT  5245541895  115970.36000000  0.00031000    1758380329139         True
+0      trade    1758380329484  BTCUSDT  5245541896  115970.36000000  0.00330000    1758380329483         True
+[23:58:49] [INFO] 0    1758380329139
+0    1758380329483
+Name: trade_timestamp, dtype: int64
+[23:58:49] [INFO] Found credentials in shared credentials file: ~/.aws/credentials

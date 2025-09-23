@@ -124,7 +124,7 @@ def extract_value(s, col):
     except Exception as e:
         print("Failed:", s)
         return None
-    
+
 def create_df(fetcher, init_since: int, timeframe="1d"):
     num_days = how_long_ago(init_since)
 
@@ -216,10 +216,9 @@ def create_df(fetcher, init_since: int, timeframe="1d"):
     return df
 
 
-
 window = 10 # binanceのclose to close volatilityのperiodが10
 annual = 365 # 株式とかだと252. binance見た感じ252かも
-timeframe="8h"
+timeframe="1m"
 limit=10000
 fr_limit=200
 oi_limit=50

@@ -1,0 +1,4 @@
+[22:48:14] [DEBUG] Using proactor: IocpProactor
+[22:48:14] [INFO] start!!!
+[22:48:14] [INFO] stream:trade, symbol:btcusdt, url:wss://stream.binance.com:9443/ws/btcusdt@trade
+[22:48:14] [INFO] send_json:{'method': 'SUBSCRIBE', 'params': {'returnRateLimits': True}, 'id': '10'}

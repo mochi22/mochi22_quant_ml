@@ -1,0 +1,4 @@
+[23:32:38] [INFO] start!!!
+[23:32:38] [INFO] stream:trade, symbol:btcusdt, url:wss://stream.binance.com:9443/ws/btcusdt@trade
+[23:32:38] [INFO] send_json:{'method': 'SUBSCRIBE', 'params': {'returnRateLimits': True}, 'id': '10'}
+[23:36:38] [WARNING] RuntimeError: Session is closed

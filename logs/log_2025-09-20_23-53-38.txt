@@ -1,0 +1,10 @@
+[23:53:38] [INFO] start!!!
+[23:53:38] [INFO] stream:trade, symbol:btcusdt, url:wss://stream.binance.com:9443/ws/btcusdt@trade
+[23:53:38] [INFO] send_json:{'method': 'SUBSCRIBE', 'params': {'returnRateLimits': True}, 'id': '10'}
+[23:53:45] [INFO] df.shape: (10, 8)
+[23:53:45] [INFO]   event_type  event_timestamp   symbol    trade_id            price    quantity  trade_timestamp  is_buyer_mm
+0      trade    1758380022353  BTCUSDT  5245538968  116009.50000000  0.00017000    1758380022353         True
+0      trade    1758380025027  BTCUSDT  5245538989  116009.50000000  0.00007000    1758380025027         True
+0      trade    1758380025288  BTCUSDT  5245538990  116009.51000000  0.00145000    1758380025287        False
+0      trade    1758380025323  BTCUSDT  5245538991  116009.50000000  0.00872000    1758380025322         True
+0      trade    1758380025339  BTCUSDT  5245538992  116009.51000000  0.00033000    1758380025339        False

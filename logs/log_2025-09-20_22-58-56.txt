@@ -1,0 +1,16 @@
+[22:58:56] [DEBUG] Using proactor: IocpProactor
+[22:58:56] [INFO] start!!!
+[22:58:56] [INFO] stream:trade, symbol:btcusdt, url:wss://stream.binance.com:9443/ws/btcusdt@trade
+[22:58:56] [INFO] send_json:{'method': 'SUBSCRIBE', 'params': {'returnRateLimits': True}, 'id': '10'}
+[22:58:56] [INFO]   event_type  event_timestamp   symbol  ...  is_buyer_mm                event_dt                        event_minus_trade_timestamp
+0      trade    1758376736634  BTCUSDT  ...        False 2025-09-20 22:58:56.634  {'event_type': 'trade', 'event_timestamp': 175...
+
+[1 rows x 10 columns]
+[22:58:56] [INFO]   event_type  event_timestamp   symbol  ...  is_buyer_mm                event_dt                        event_minus_trade_timestamp
+0      trade    1758376736648  BTCUSDT  ...        False 2025-09-20 22:58:56.648  {'event_type': 'trade', 'event_timestamp': 175...
+
+[1 rows x 10 columns]
+[22:59:02] [INFO]   event_type  event_timestamp   symbol  ...  is_buyer_mm                event_dt                        event_minus_trade_timestamp
+0      trade    1758376742393  BTCUSDT  ...        False 2025-09-20 22:59:02.393  {'event_type': 'trade', 'event_timestamp': 175...
+
+[1 rows x 10 columns]

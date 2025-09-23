@@ -1,0 +1,69 @@
+[22:57:13] [DEBUG] Using proactor: IocpProactor
+[22:57:13] [INFO] start!!!
+[22:57:13] [INFO] stream:trade, symbol:btcusdt, url:wss://stream.binance.com:9443/ws/btcusdt@trade
+[22:57:13] [INFO] send_json:{'method': 'SUBSCRIBE', 'params': {'returnRateLimits': True}, 'id': '10'}
+[22:57:15] [INFO]                             event_type  event_timestamp  ...                event_dt                        event_minus_trade_timestamp
+event_type                       trade    1758376635002  ... 2025-09-20 22:57:15.002                                              trade
+event_timestamp                  trade    1758376635002  ... 2025-09-20 22:57:15.002                                      1758376635002
+symbol                           trade    1758376635002  ... 2025-09-20 22:57:15.002                                            BTCUSDT
+trade_id                         trade    1758376635002  ... 2025-09-20 22:57:15.002                                         5245507028
+price                            trade    1758376635002  ... 2025-09-20 22:57:15.002                                    115915.79000000
+quantity                         trade    1758376635002  ... 2025-09-20 22:57:15.002                                         0.00021000
+trade_timestamp                  trade    1758376635002  ... 2025-09-20 22:57:15.002                                      1758376635001
+is_buyer_mm                      trade    1758376635002  ... 2025-09-20 22:57:15.002                                               True
+event_dt                         trade    1758376635002  ... 2025-09-20 22:57:15.002                         2025-09-20 22:57:15.002000
+event_minus_trade_timestamp      trade    1758376635002  ... 2025-09-20 22:57:15.002  {'event_type': 'trade', 'event_timestamp': 175...
+
+[10 rows x 10 columns]
+[22:57:15] [INFO]                             event_type  event_timestamp  ...                event_dt                        event_minus_trade_timestamp
+event_type                       trade    1758376635627  ... 2025-09-20 22:57:15.627                                              trade
+event_timestamp                  trade    1758376635627  ... 2025-09-20 22:57:15.627                                      1758376635627
+symbol                           trade    1758376635627  ... 2025-09-20 22:57:15.627                                            BTCUSDT
+trade_id                         trade    1758376635627  ... 2025-09-20 22:57:15.627                                         5245507030
+price                            trade    1758376635627  ... 2025-09-20 22:57:15.627                                    115915.80000000
+quantity                         trade    1758376635627  ... 2025-09-20 22:57:15.627                                         0.00217000
+trade_timestamp                  trade    1758376635627  ... 2025-09-20 22:57:15.627                                      1758376635626
+is_buyer_mm                      trade    1758376635627  ... 2025-09-20 22:57:15.627                                              False
+event_dt                         trade    1758376635627  ... 2025-09-20 22:57:15.627                         2025-09-20 22:57:15.627000
+event_minus_trade_timestamp      trade    1758376635627  ... 2025-09-20 22:57:15.627  {'event_type': 'trade', 'event_timestamp': 175...
+
+[10 rows x 10 columns]
+[22:57:15] [INFO]                             event_type  event_timestamp  ...                event_dt                        event_minus_trade_timestamp
+event_type                       trade    1758376635653  ... 2025-09-20 22:57:15.653                                              trade
+event_timestamp                  trade    1758376635653  ... 2025-09-20 22:57:15.653                                      1758376635653
+symbol                           trade    1758376635653  ... 2025-09-20 22:57:15.653                                            BTCUSDT
+trade_id                         trade    1758376635653  ... 2025-09-20 22:57:15.653                                         5245507031
+price                            trade    1758376635653  ... 2025-09-20 22:57:15.653                                    115915.80000000
+quantity                         trade    1758376635653  ... 2025-09-20 22:57:15.653                                         0.00009000
+trade_timestamp                  trade    1758376635653  ... 2025-09-20 22:57:15.653                                      1758376635652
+is_buyer_mm                      trade    1758376635653  ... 2025-09-20 22:57:15.653                                              False
+event_dt                         trade    1758376635653  ... 2025-09-20 22:57:15.653                         2025-09-20 22:57:15.653000
+event_minus_trade_timestamp      trade    1758376635653  ... 2025-09-20 22:57:15.653  {'event_type': 'trade', 'event_timestamp': 175...
+
+[10 rows x 10 columns]
+[22:57:16] [INFO]                             event_type  event_timestamp  ...                event_dt                        event_minus_trade_timestamp
+event_type                       trade    1758376636281  ... 2025-09-20 22:57:16.281                                              trade
+event_timestamp                  trade    1758376636281  ... 2025-09-20 22:57:16.281                                      1758376636281
+symbol                           trade    1758376636281  ... 2025-09-20 22:57:16.281                                            BTCUSDT
+trade_id                         trade    1758376636281  ... 2025-09-20 22:57:16.281                                         5245507034
+price                            trade    1758376636281  ... 2025-09-20 22:57:16.281                                    115915.79000000
+quantity                         trade    1758376636281  ... 2025-09-20 22:57:16.281                                         0.00024000
+trade_timestamp                  trade    1758376636281  ... 2025-09-20 22:57:16.281                                      1758376636280
+is_buyer_mm                      trade    1758376636281  ... 2025-09-20 22:57:16.281                                               True
+event_dt                         trade    1758376636281  ... 2025-09-20 22:57:16.281                         2025-09-20 22:57:16.281000
+event_minus_trade_timestamp      trade    1758376636281  ... 2025-09-20 22:57:16.281  {'event_type': 'trade', 'event_timestamp': 175...
+
+[10 rows x 10 columns]
+[22:57:18] [INFO]                             event_type  event_timestamp  ...                event_dt                        event_minus_trade_timestamp
+event_type                       trade    1758376638711  ... 2025-09-20 22:57:18.711                                              trade
+event_timestamp                  trade    1758376638711  ... 2025-09-20 22:57:18.711                                      1758376638711
+symbol                           trade    1758376638711  ... 2025-09-20 22:57:18.711                                            BTCUSDT
+trade_id                         trade    1758376638711  ... 2025-09-20 22:57:18.711                                         5245507043
+price                            trade    1758376638711  ... 2025-09-20 22:57:18.711                                    115915.79000000
+quantity                         trade    1758376638711  ... 2025-09-20 22:57:18.711                                         0.00006000
+trade_timestamp                  trade    1758376638711  ... 2025-09-20 22:57:18.711                                      1758376638711
+is_buyer_mm                      trade    1758376638711  ... 2025-09-20 22:57:18.711                                               True
+event_dt                         trade    1758376638711  ... 2025-09-20 22:57:18.711                         2025-09-20 22:57:18.711000
+event_minus_trade_timestamp      trade    1758376638711  ... 2025-09-20 22:57:18.711  {'event_type': 'trade', 'event_timestamp': 175...
+
+[10 rows x 10 columns]
